@@ -1,23 +1,18 @@
 # KazShin Tire Catalog and Customer Request Management Website
 
-This project was developed for the Industrial Practice course.
+KazShin Tire Catalog is a web-based tire catalog and customer request management website for a tire sales company.
 
-## Project Summary
-
-KazShin Tire Catalog is a web-based catalog and customer request management system for a tire sales company. Customers can browse tire models, filter products by season, brand, rim size, availability, select a tire, and submit a request online.
+Customers can browse tire models, filter products by season, brand, rim size and availability, select a tire, and submit an online request for consultation or purchase.
 
 ## Main Features
 
 - Modern responsive landing page
-- Dynamic tire catalog rendered with JavaScript
-- Search by brand, model, size, season
-- Filters by season, brand, rim size, and availability
-- Sorting by recommendation, price, and stock quantity
-- Product detail modal
+- Tire catalog with product cards
+- Search by brand, model, season and size
+- Filters by season, brand, rim size and availability
+- Product details modal window
 - Customer request form
-- Form validation
-- localStorage request saving
-- Saved requests dashboard
+- Incoming customer requests table
 - Export requests to CSV
 
 ## Technologies Used
@@ -29,22 +24,40 @@ KazShin Tire Catalog is a web-based catalog and customer request management syst
 - Git
 - GitHub Pages
 
+## Website Sections
+
+- Home page
+- Tire catalog
+- Services
+- Delivery and payment
+- Customer request form
+- Incoming customer requests
+- About KazShin
+- Contacts
+- FAQ
+
 ## Technical Contribution
 
-The main technical contribution is the implementation of an interactive catalog and request-management workflow using JavaScript. Product data is represented as JavaScript objects and rendered dynamically. The system includes filtering, sorting, modal product selection, form validation, localStorage persistence, and CSV export.
+The main technical contribution is the implementation of an interactive catalog and request-management workflow using JavaScript.
+
+Product data is represented as JavaScript objects and rendered dynamically as catalog cards. The system includes filtering, sorting, modal product selection, form validation, localStorage persistence, and CSV export.
 
 ## How to Run
 
 Open `index.html` in a browser.
 
-Important: this version is self-contained. CSS and JavaScript are inside `index.html`, so the design works even if the file is opened locally.
+## Project Structure
 
-## Suggested Git Commits
-
-1. Add website structure and landing page
-2. Add responsive UI design
-3. Add tire catalog product data
-4. Add search, filters and sorting
-5. Add customer request form
-6. Add localStorage request dashboard
-7. Add CSV export and documentation
+```text
+kazshin-tire-catalog/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── app.js
+├── docs/
+│   ├── calendar-plan.md
+│   ├── company-characteristic-template.md
+│   └── report-text.md
+└── README.md
+```

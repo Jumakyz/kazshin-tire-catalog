@@ -61,3 +61,21 @@ kazshin-tire-catalog/
 │   └── report-text.md
 └── README.md
 ```
+
+## Website Sections
+
+The website includes the following sections:
+
+- Home page
+- Tire catalog
+- Services
+- Delivery and payment
+- Customer request form
+- Incoming customer requests
+- About KazShin
+- Contacts
+- FAQ
+
+## Business Purpose
+
+The purpose of the website is to help KazShin customers browse tire models, filter products by season, brand and rim size, and submit online requests for consultation or purchase.

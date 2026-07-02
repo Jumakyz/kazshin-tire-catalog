@@ -16,7 +16,10 @@ const tires = [
       { id: 15, brand: "Continental", model: "AllSeasonContact 2", season: "All-season", size: "225/45 R17", rim: "R17", price: 58500, stock: 6, rating: 4.7, recommended: true },
       { id: 16, brand: "Michelin", model: "X-Ice Snow", season: "Winter", size: "215/65 R16", rim: "R16", price: 56000, stock: 8, rating: 4.8, recommended: false },
       { id: 17, brand: "Bridgestone", model: "Potenza Sport", season: "Summer", size: "245/40 R18", rim: "R18", price: 74500, stock: 3, rating: 4.7, recommended: false },
-      { id: 18, brand: "Hankook", model: "Dynapro HP2", season: "All-season", size: "225/65 R17", rim: "R17", price: 54000, stock: 12, rating: 4.4, recommended: false }
+      { id: 18, brand: "Hankook", model: "Dynapro HP2", season: "All-season", size: "225/65 R17", rim: "R17", price: 54000, stock: 12, rating: 4.4, recommended: false },
+      { id: 19, brand: "Continental", model: "EcoContact 6", season: "Summer", size: "195/65 R15", rim: "R15", price: 40500, stock: 16, rating: 4.6, recommended: false },
+      { id: 20, brand: "Nokian", model: "Snowproof 2", season: "Winter", size: "205/55 R16", rim: "R16", price: 48500, stock: 9, rating: 4.7, recommended: true },
+      { id: 21, brand: "Michelin", model: "Latitude Sport 3", season: "Summer", size: "225/65 R17", rim: "R17", price: 69000, stock: 7, rating: 4.8, recommended: false }
     ];
 
     const state = {

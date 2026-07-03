@@ -62,20 +62,42 @@ kazshin-tire-catalog/
 └── README.md
 ```
 
-## Website Sections
+## Backend Extension
 
-The website includes the following sections:
+The project also includes a backend API to strengthen the technical implementation.
 
-- Home page
-- Tire catalog
-- Services
-- Delivery and payment
-- Customer request form
-- Incoming customer requests
-- About KazShin
-- Contacts
-- FAQ
+Backend technologies:
 
-## Business Purpose
+- Python
+- Flask
+- SQLite
+- REST API
+- SQL database schema
 
-The purpose of the website is to help KazShin customers browse tire models, filter products by season, brand and rim size, and submit online requests for consultation or purchase.
+Backend folder:
+
+```text
+backend/
+├── app.py
+├── schema.sql
+├── requirements.txt
+└── README_BACKEND.md
+```
+
+The backend provides API endpoints for tire products and customer requests. Customer requests are saved into a SQLite database instead of only browser localStorage when the project is launched through Flask.
+
+Run backend:
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+
+Then open:
+
+```text
+http://127.0.0.1:5000/
+```
